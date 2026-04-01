@@ -141,9 +141,11 @@ Reconstruct the original archive and place `model.p` at:
 The original study batch file expects a Windows directory structure such as:
 
 ```text
-D:\Deep_learning_model```
+D:\Deep_learning_model
+```
 
 If you keep the original batch file unchanged, place the folders under that root path or edit the file paths accordingly. A portable template is also provided.
+
 
 ### Step 4. Run the provided batch command
 
