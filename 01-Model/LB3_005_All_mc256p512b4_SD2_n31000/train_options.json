@@ -1,0 +1,34 @@
+{
+    "batch_size": 4,
+    "bpds_kwargs": {},
+    "buffer_size": 10000,
+    "buffer_switch_frequency": 180000,
+    "class_dataset": "TiffDataset",
+    "gpu_ids": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "interval_save": 1000,
+    "iter_checkpoint": [],
+    "lr": 0.001,
+    "n_iter": 31000,
+    "nn_kwargs": {},
+    "nn_module": "fnet_nn_2d_mc256",
+    "patch_size": [
+        512,
+        512
+    ],
+    "path_dataset_csv": "/media/lee/Data/Deep_learnig/Images/01-Single/00-csv-train/01-20190711-LB1-All_L/train.csv",
+    "path_dataset_val_csv": null,
+    "path_run_dir": "/media/lee/Data/Deep_learnig/Results/00-models/LB3_005_All_mc256p512b4_SD2",
+    "seed": null,
+    "shuffle_images": false,
+    "transform_signal": [
+        "fnet.transforms.normalize"
+    ],
+    "transform_target": [
+        "fnet.transforms.normalize"
+    ]
+}
