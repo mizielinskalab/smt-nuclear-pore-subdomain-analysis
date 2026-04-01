@@ -1,0 +1,22 @@
+{
+    "class_dataset": "TiffDataset",
+    "gpu_ids": 0,
+    "module_fnet_model": "fnet_model",
+    "n_images": 120,
+    "no_prediction": false,
+    "no_prediction_unpropped": false,
+    "no_signal": false,
+    "no_target": false,
+    "path_dataset_csv": "D:\\Deep_learning_model\\03-Input-images-csv\\input_location.csv",
+    "path_model_dir": [
+        "D:\\Deep_learning_model\\01-Model\\LB3_005_All_mc256p512b4_SD2_n31000"
+    ],
+    "path_save_dir": "D:\\Deep_learning_model\\04-Results\\Model_prediction_01\\",
+    "propper_kwargs": {},
+    "transform_signal": [
+        "fnet.transforms.normalize"
+    ],
+    "transform_target": [
+        "fnet.transforms.normalize"
+    ]
+}
