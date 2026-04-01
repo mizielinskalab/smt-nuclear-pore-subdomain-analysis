@@ -169,7 +169,7 @@ A portable path-editable template is included as:
 
 ## Notes on the provided outputs
 
-The shared results folder already contains **108 example prediction cases** for inspection. A reviewer can verify the mapping between:
+The shared results folder already contains **108 example prediction cases** for inspection. A reader can verify the mapping between:
 
 1. the input bright-field image,
 2. the predicted Lamin B1 image,
