@@ -206,9 +206,11 @@ In our experience, the model is particularly sensitive to **bright-field intensi
 - Training the deep-learning model required a Linux workstation with 512 GB RAM, four NVIDIA Titan RTX GPUs, and an Intel Xeon CPU.
 - For image prediction only, the code can be run on a normal desktop computer.
 
-## Typical setup
+## Typical setup and runing time
 
-Typical setup time is about 60-120 minutes, including installation of Anaconda and pytorch_fnet.
+- Typical setup time is about 60-120 minutes, including installation of Anaconda and pytorch_fnet.
+- For image prediction only, each image takes less than 1 minute on a normal desktop computer.
+- Training the deep-learning model requires approximately 10 days on a Linux workstation with 512 GB RAM, four NVIDIA Titan RTX GPUs, and an Intel Xeon CPU.
 
 ## Recommended citation
 
