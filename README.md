@@ -200,6 +200,16 @@ Prediction quality can decrease when there is mismatch in:
 
 In our experience, the model is particularly sensitive to **bright-field intensity range and contrast distribution**. Matching the microscope acquisition settings as closely as possible to the training data is therefore important.
 
+
+## Any required non-standard hardware
+
+- Training the deep-learning model required a Linux workstation with 512 GB RAM, four NVIDIA Titan RTX GPUs, and an Intel Xeon CPU.
+- For image prediction only, the code can be run on a normal desktop computer.
+
+## Typical setup
+
+Typical setup time is about 60-120 minutes, including installation of Anaconda and pytorch_fnet.
+
 ## Recommended citation
 
 Please cite both:
